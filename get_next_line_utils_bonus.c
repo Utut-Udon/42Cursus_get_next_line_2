@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: fujitaharuki <fujitaharuki@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/21 10:24:39 by fujitaharuk       #+#    #+#             */
-/*   Updated: 2024/06/07 07:00:12 by fujitaharuk      ###   ########.fr       */
+/*   Created: 2024/06/11 03:06:16 by fujitaharuk       #+#    #+#             */
+/*   Updated: 2024/06/11 03:12:37 by fujitaharuk      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 size_t	ft_strlen(const char *str)
 {
@@ -39,7 +39,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	return (ft_strlen(src));
 }
 
-char	*ft_strjoin(char const *s1, char const *s2)
+char	*ft_strjoin(char *s1, char *s2)
 {
 	char	*start;
 	char	*dst;
